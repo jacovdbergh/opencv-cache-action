@@ -1,28 +1,28 @@
-name: 'opencv-cache'
-description: 'download, build and cache opencv from source'
-author: 'Uriel Chemouni'
+name: "opencv-cache"
+description: "download, build and cache opencv from source"
+author: "Uriel Chemouni"
 inputs:
   branch:
-    description: 'branch to checkout default is 4.x'
+    description: "branch to checkout default is 4.x"
     required: true
-    default: '4.x'
+    default: "4.x"
   BUILD_LIST:
-    description: 'List of feature to compile, the less features you select the smallest will be the image.'
+    description: "List of feature to compile, the less features you select the smallest will be the image."
     required: true
-    default: 'core'
+    default: "core"
   DO_SHRINK:
-    description: 'redude the size of the image by removing samples and tests.'
-    default: ''
+    description: "redude the size of the image by removing samples and tests."
+    default: ""
   NO_CONTRIB:
-    description: 'Disable openCV contrib.'
-    default: ''
+    description: "Disable openCV contrib."
+    default: ""
 
 #outputs:
 #  time: # output will be available to future steps
 #    description: 'The current time after waiting'
 branding:
-  icon: 'hard-drive'
-  color: 'blue'
+  icon: "hard-drive"
+  color: "blue"
 runs:
-  using: 'node16'
-  main: 'dist/main.bundle.js'
+  using: "node20"
+  main: "dist/main.bundle.js"
