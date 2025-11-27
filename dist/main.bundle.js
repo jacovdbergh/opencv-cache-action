@@ -263,6 +263,13 @@ module.exports = require("assert");
 
 /***/ }),
 
+/***/ 852:
+/***/ ((module) => {
+
+module.exports = require("async_hooks");
+
+/***/ }),
+
 /***/ 4300:
 /***/ ((module) => {
 
@@ -277,6 +284,13 @@ module.exports = require("child_process");
 
 /***/ }),
 
+/***/ 6206:
+/***/ ((module) => {
+
+module.exports = require("console");
+
+/***/ }),
+
 /***/ 2057:
 /***/ ((module) => {
 
@@ -288,6 +302,13 @@ module.exports = require("constants");
 /***/ ((module) => {
 
 module.exports = require("crypto");
+
+/***/ }),
+
+/***/ 7643:
+/***/ ((module) => {
+
+module.exports = require("diagnostics_channel");
 
 /***/ }),
 
@@ -312,6 +333,13 @@ module.exports = require("http");
 
 /***/ }),
 
+/***/ 5158:
+/***/ ((module) => {
+
+module.exports = require("http2");
+
+/***/ }),
+
 /***/ 5687:
 /***/ ((module) => {
 
@@ -323,6 +351,34 @@ module.exports = require("https");
 /***/ ((module) => {
 
 module.exports = require("net");
+
+/***/ }),
+
+/***/ 6005:
+/***/ ((module) => {
+
+module.exports = require("node:crypto");
+
+/***/ }),
+
+/***/ 5673:
+/***/ ((module) => {
+
+module.exports = require("node:events");
+
+/***/ }),
+
+/***/ 4492:
+/***/ ((module) => {
+
+module.exports = require("node:stream");
+
+/***/ }),
+
+/***/ 7261:
+/***/ ((module) => {
+
+module.exports = require("node:util");
 
 /***/ }),
 
@@ -340,6 +396,13 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ 4074:
+/***/ ((module) => {
+
+module.exports = require("perf_hooks");
+
+/***/ }),
+
 /***/ 7282:
 /***/ ((module) => {
 
@@ -354,10 +417,24 @@ module.exports = require("punycode");
 
 /***/ }),
 
+/***/ 3477:
+/***/ ((module) => {
+
+module.exports = require("querystring");
+
+/***/ }),
+
 /***/ 2781:
 /***/ ((module) => {
 
 module.exports = require("stream");
+
+/***/ }),
+
+/***/ 5356:
+/***/ ((module) => {
+
+module.exports = require("stream/web");
 
 /***/ }),
 
@@ -393,6 +470,20 @@ module.exports = require("url");
 /***/ ((module) => {
 
 module.exports = require("util");
+
+/***/ }),
+
+/***/ 9830:
+/***/ ((module) => {
+
+module.exports = require("util/types");
+
+/***/ }),
+
+/***/ 1267:
+/***/ ((module) => {
+
+module.exports = require("worker_threads");
 
 /***/ }),
 
